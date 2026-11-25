@@ -42,6 +42,7 @@ class _CarTablePageState extends State<CarTablePage> {
     Car(make: 'Honda', model: 'City', price: 84900),
     Car(make: 'Proton', model: 'X50', price: 86300),
     Car(make: 'Mazda', model: 'CX-5', price: 144469),
+    car(male: 'BYD', model: 'Atto2', price: 100000),
   ];
 
   void _sort<T extends Comparable<T>>(
