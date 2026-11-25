@@ -63,7 +63,7 @@ class _CarTablePageState extends State<CarTablePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Lab B: Car Price DataTable')),
+      appBar: AppBar(title: const Text('Lab B: Car List (Main)')),
       body: SingleChildScrollView(
         scrollDirection: Axis.horizontal,
         child: DataTable(
